@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E4337552A6CC56D0077075F /* ValorantShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4337542A6CC56D0077075F /* ValorantShopApp.swift */; };
+		9E4337572A6CC56D0077075F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4337562A6CC56D0077075F /* ContentView.swift */; };
+		9E4337592A6CC5700077075F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E4337582A6CC5700077075F /* Assets.xcassets */; };
+		9E43375C2A6CC5700077075F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E43375B2A6CC5700077075F /* Preview Assets.xcassets */; };
+		9E4337682A6D1AD20077075F /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4337672A6D1AD20077075F /* ShopView.swift */; };
+		9E43376A2A6D1ADC0077075F /* NightMarketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4337692A6D1ADC0077075F /* NightMarketView.swift */; };
+		9E43376C2A6D1AE40077075F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E43376B2A6D1AE40077075F /* SettingsView.swift */; };
+		9E43376E2A6D1AF90077075F /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E43376D2A6D1AF90077075F /* SideBarView.swift */; };
+		9E4337742A6D1BEC0077075F /* TabButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4337732A6D1BEC0077075F /* TabButtonView.swift */; };
+		9E4337772A6D1CB10077075F /* SideTabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4337762A6D1CB10077075F /* SideTabButton.swift */; };
+		9E43377A2A6D21D00077075F /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4337792A6D21D00077075F /* View+Extension.swift */; };
+		9EEB8C5F2A6D3D3F00334217 /* RoundedRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEB8C5E2A6D3D3F00334217 /* RoundedRect.swift */; };
+		9EEC72AA2AA8B2E9002093B2 /* FullScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEC72A92AA8B2E9002093B2 /* FullScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9E4337512A6CC56D0077075F /* ValorantShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ValorantShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E4337542A6CC56D0077075F /* ValorantShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValorantShopApp.swift; sourceTree = "<group>"; };
+		9E4337562A6CC56D0077075F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9E4337582A6CC5700077075F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E43375B2A6CC5700077075F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9E4337672A6D1AD20077075F /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		9E4337692A6D1ADC0077075F /* NightMarketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightMarketView.swift; sourceTree = "<group>"; };
+		9E43376B2A6D1AE40077075F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		9E43376D2A6D1AF90077075F /* SideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarView.swift; sourceTree = "<group>"; };
+		9E4337732A6D1BEC0077075F /* TabButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButtonView.swift; sourceTree = "<group>"; };
+		9E4337762A6D1CB10077075F /* SideTabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideTabButton.swift; sourceTree = "<group>"; };
+		9E4337792A6D21D00077075F /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		9EEB8C5E2A6D3D3F00334217 /* RoundedRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedRect.swift; sourceTree = "<group>"; };
+		9EEC72A92AA8B2E9002093B2 /* FullScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E43374E2A6CC56D0077075F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E4337482A6CC56D0077075F = {
+			isa = PBXGroup;
+			children = (
+				9E4337532A6CC56D0077075F /* ValorantShop */,
+				9E4337522A6CC56D0077075F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E4337522A6CC56D0077075F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E4337512A6CC56D0077075F /* ValorantShop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E4337532A6CC56D0077075F /* ValorantShop */ = {
+			isa = PBXGroup;
+			children = (
+				9E4337542A6CC56D0077075F /* ValorantShopApp.swift */,
+				9E4337622A6CC58B0077075F /* Views */,
+				9E4337662A6D1A880077075F /* ViewModel */,
+				9E4337782A6D21C30077075F /* Extensions */,
+				9EEC72A82AA8B2D1002093B2 /* Modifiers */,
+				9EEB8C5D2A6D3D2500334217 /* Shapes */,
+				9E4337752A6D1C370077075F /* Enums */,
+				9E4337582A6CC5700077075F /* Assets.xcassets */,
+				9E43375A2A6CC5700077075F /* Preview Content */,
+			);
+			path = ValorantShop;
+			sourceTree = "<group>";
+		};
+		9E43375A2A6CC5700077075F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9E43375B2A6CC5700077075F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9E4337622A6CC58B0077075F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9E4337562A6CC56D0077075F /* ContentView.swift */,
+				9E4337632A6D19FA0077075F /* ShopView */,
+				9E4337642A6D1A640077075F /* NightMarketView */,
+				9E4337652A6D1A750077075F /* SettingsView */,
+				9E43376F2A6D1B100077075F /* SideBarView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9E4337632A6D19FA0077075F /* ShopView */ = {
+			isa = PBXGroup;
+			children = (
+				9E4337672A6D1AD20077075F /* ShopView.swift */,
+			);
+			path = ShopView;
+			sourceTree = "<group>";
+		};
+		9E4337642A6D1A640077075F /* NightMarketView */ = {
+			isa = PBXGroup;
+			children = (
+				9E4337692A6D1ADC0077075F /* NightMarketView.swift */,
+			);
+			path = NightMarketView;
+			sourceTree = "<group>";
+		};
+		9E4337652A6D1A750077075F /* SettingsView */ = {
+			isa = PBXGroup;
+			children = (
+				9E43376B2A6D1AE40077075F /* SettingsView.swift */,
+			);
+			path = SettingsView;
+			sourceTree = "<group>";
+		};
+		9E4337662A6D1A880077075F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9E43376F2A6D1B100077075F /* SideBarView */ = {
+			isa = PBXGroup;
+			children = (
+				9E43376D2A6D1AF90077075F /* SideBarView.swift */,
+				9E4337722A6D1BD60077075F /* Components */,
+			);
+			path = SideBarView;
+			sourceTree = "<group>";
+		};
+		9E4337722A6D1BD60077075F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9E4337732A6D1BEC0077075F /* TabButtonView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9E4337752A6D1C370077075F /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				9E4337762A6D1CB10077075F /* SideTabButton.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		9E4337782A6D21C30077075F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9E4337792A6D21D00077075F /* View+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9EEB8C5D2A6D3D2500334217 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				9EEB8C5E2A6D3D3F00334217 /* RoundedRect.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		9EEC72A82AA8B2D1002093B2 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				9EEC72A92AA8B2E9002093B2 /* FullScreen.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E4337502A6CC56D0077075F /* 3DSlideOutMenuProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E43375F2A6CC5700077075F /* Build configuration list for PBXNativeTarget "3DSlideOutMenuProject" */;
+			buildPhases = (
+				9E43374D2A6CC56D0077075F /* Sources */,
+				9E43374E2A6CC56D0077075F /* Frameworks */,
+				9E43374F2A6CC56D0077075F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 3DSlideOutMenuProject;
+			productName = 3DSlideOutMenuProject;
+			productReference = 9E4337512A6CC56D0077075F /* ValorantShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E4337492A6CC56D0077075F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					9E4337502A6CC56D0077075F = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 9E43374C2A6CC56D0077075F /* Build configuration list for PBXProject "ValorantShop" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E4337482A6CC56D0077075F;
+			productRefGroup = 9E4337522A6CC56D0077075F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E4337502A6CC56D0077075F /* 3DSlideOutMenuProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E43374F2A6CC56D0077075F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E43375C2A6CC5700077075F /* Preview Assets.xcassets in Resources */,
+				9E4337592A6CC5700077075F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E43374D2A6CC56D0077075F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E43376C2A6D1AE40077075F /* SettingsView.swift in Sources */,
+				9E4337682A6D1AD20077075F /* ShopView.swift in Sources */,
+				9E43377A2A6D21D00077075F /* View+Extension.swift in Sources */,
+				9E4337772A6D1CB10077075F /* SideTabButton.swift in Sources */,
+				9EEC72AA2AA8B2E9002093B2 /* FullScreen.swift in Sources */,
+				9E43376A2A6D1ADC0077075F /* NightMarketView.swift in Sources */,
+				9E43376E2A6D1AF90077075F /* SideBarView.swift in Sources */,
+				9E4337572A6CC56D0077075F /* ContentView.swift in Sources */,
+				9E4337742A6D1BEC0077075F /* TabButtonView.swift in Sources */,
+				9EEB8C5F2A6D3D3F00334217 /* RoundedRect.swift in Sources */,
+				9E4337552A6CC56D0077075F /* ValorantShopApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9E43375D2A6CC5700077075F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9E43375E2A6CC5700077075F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E4337602A6CC5700077075F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ValorantShop/Preview Content\"";
+				DEVELOPMENT_TEAM = 4DQM269FVB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ValorantShop/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "발로란트 상점";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zizi-Kim.ValorantShop";
+				PRODUCT_NAME = ValorantShop;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E4337612A6CC5700077075F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ValorantShop/Preview Content\"";
+				DEVELOPMENT_TEAM = 4DQM269FVB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ValorantShop/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "발로란트 상점";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zizi-Kim.ValorantShop";
+				PRODUCT_NAME = ValorantShop;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E43374C2A6CC56D0077075F /* Build configuration list for PBXProject "ValorantShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E43375D2A6CC5700077075F /* Debug */,
+				9E43375E2A6CC5700077075F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E43375F2A6CC5700077075F /* Build configuration list for PBXNativeTarget "3DSlideOutMenuProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E4337602A6CC5700077075F /* Debug */,
+				9E4337612A6CC5700077075F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E4337492A6CC56D0077075F /* Project object */;
+}
